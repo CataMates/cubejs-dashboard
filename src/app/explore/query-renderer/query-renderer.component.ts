@@ -87,7 +87,7 @@ export class QueryRendererComponent implements OnInit {
     private cubejsClient: CubejsClient,
     private snakBar: MatSnackBar,
     private dialog: MatDialog
-  ) {}
+  ) { }
 
   ngOnInit() {
     combineLatest([
